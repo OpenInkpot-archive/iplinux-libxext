@@ -1,0 +1,24 @@
+libxext (1:1.0.0-1) UNRELEASED; urgency=low
+
+  * First upload to Debian
+
+ -- David Nusinow <dnusinow@debian.org>  Thu, 29 Dec 2005 20:51:38 -0500
+
+libxext (1:6.4.3-3) breezy; urgency=low
+
+  * Bump Build-Depends on x11proto-core-dev and libx11-dev to today's CVS
+    versions, to stop _XOPEN_SOURCE leakage.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Fri, 22 Jul 2005 23:33:51 +1000
+
+libxext (1:6.4.3-2) breezy; urgency=low
+
+  * Add missing build-dep on libxau-dev.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 17 Jun 2005 08:42:42 +0000
+
+libxext (1:6.4.3-1) breezy; urgency=low
+
+  * First libxext release.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Mon, 16 May 2005 22:10:17 +1000
