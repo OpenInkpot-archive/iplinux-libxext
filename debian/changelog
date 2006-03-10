@@ -1,3 +1,9 @@
+libxext (1:1.0.0-2) experimental; urgency=low
+
+  * Backport manpage location fix from upstream
+
+ -- David Nusinow <dnusinow@debian.org>  Thu,  9 Mar 2006 23:16:00 -0500
+
 libxext (1:1.0.0-1) experimental; urgency=low
 
   * First upload to Debian
