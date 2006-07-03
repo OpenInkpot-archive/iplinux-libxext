@@ -1,0 +1,60 @@
+libxext (1:1.0.1-1) experimental; urgency=low
+
+  * New upstream release
+  * Run dh_install with --list-missing
+  * Bump debhelper compat to 5
+  * Update manpage location patch to be a lot simpler
+  * Don't try to install headers, as they aren't included
+  * Remove extra dependency on x11-common in libxext-dev
+  * Version libxext-dev's pre-dep on x11-common to be >= 1:7.0.0 to match the
+    rest of Debian and shut up lintian
+  * Re-wrap description of libxext-dev so that it's not too long on any one
+    line
+  * Update standards version to 3.7.2.0
+
+ -- David Nusinow <dnusinow@debian.org>  Mon,  3 Jul 2006 15:41:05 -0400
+
+libxext (1:1.0.0-4) unstable; urgency=low
+
+  * Reorder makeshlib command in rules file so that ldconfig is run
+    properly. Thanks Drew Parsons and Steve Langasek.
+  * Add quilt to build-depends
+
+ -- David Nusinow <dnusinow@debian.org>  Tue, 18 Apr 2006 23:40:53 -0400
+
+libxext (1:1.0.0-3) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- David Nusinow <dnusinow@debian.org>  Thu, 23 Mar 2006 22:44:36 -0500
+
+libxext (1:1.0.0-2) experimental; urgency=low
+
+  * Backport manpage location fix from upstream
+
+ -- David Nusinow <dnusinow@debian.org>  Thu,  9 Mar 2006 23:16:00 -0500
+
+libxext (1:1.0.0-1) experimental; urgency=low
+
+  * First upload to Debian
+
+ -- David Nusinow <dnusinow@debian.org>  Thu, 29 Dec 2005 20:51:38 -0500
+
+libxext (1:6.4.3-3) breezy; urgency=low
+
+  * Bump Build-Depends on x11proto-core-dev and libx11-dev to today's CVS
+    versions, to stop _XOPEN_SOURCE leakage.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Fri, 22 Jul 2005 23:33:51 +1000
+
+libxext (1:6.4.3-2) breezy; urgency=low
+
+  * Add missing build-dep on libxau-dev.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 17 Jun 2005 08:42:42 +0000
+
+libxext (1:6.4.3-1) breezy; urgency=low
+
+  * First libxext release.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Mon, 16 May 2005 22:10:17 +1000
