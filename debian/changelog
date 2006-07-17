@@ -1,3 +1,10 @@
+libxext (1:1.0.1-2) UNRELEASED; urgency=low
+
+  * Test for obj-$(DEB_BUILD_GNU_TYPE) before creating it during build;
+    idempotency fix. 
+
+ -- Andres Salomon <dilinger@debian.org>  Mon, 17 Jul 2006 00:19:01 -0400
+
 libxext (1:1.0.1-1) experimental; urgency=low
 
   * New upstream release
