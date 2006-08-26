@@ -1,4 +1,4 @@
-libxext (1:1.0.1-2) UNRELEASED; urgency=low
+libxext (1:1.0.1-2) unstable; urgency=low
 
   [ Andres Salomon ]
   * Test for obj-$(DEB_BUILD_GNU_TYPE) before creating it during build;
@@ -13,7 +13,7 @@ libxext (1:1.0.1-2) UNRELEASED; urgency=low
     use
   * Autoreconf for manpage sections
 
- -- David Nusinow <dnusinow@debian.org>  Sat, 26 Aug 2006 18:15:24 +0000
+ -- David Nusinow <dnusinow@debian.org>  Sat, 26 Aug 2006 18:16:06 +0000
 
 libxext (1:1.0.1-1) experimental; urgency=low
 
