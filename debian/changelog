@@ -7,7 +7,10 @@ libxext (1:1.0.1-2) UNRELEASED; urgency=low
   [ Drew Parsons ]
   * dbg package has priority extra.
 
- -- Drew Parsons <dparsons@debian.org>  Sat, 19 Aug 2006 22:15:44 +1000
+  [ David Nusinow ]
+  * We don't need the manpage section patch any more
+
+ -- David Nusinow <dnusinow@debian.org>  Sat, 26 Aug 2006 17:29:25 +0000
 
 libxext (1:1.0.1-1) experimental; urgency=low
 
