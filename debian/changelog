@@ -8,9 +8,12 @@ libxext (1:1.0.1-2) UNRELEASED; urgency=low
   * dbg package has priority extra.
 
   [ David Nusinow ]
-  * We don't need the manpage section patch any more
+  * Make a new manpage section patch to dynamically generate the manpage
+    sections using the libmandir variable that other manpages in the package
+    use
+  * Autoreconf for manpage sections
 
- -- David Nusinow <dnusinow@debian.org>  Sat, 26 Aug 2006 17:29:25 +0000
+ -- David Nusinow <dnusinow@debian.org>  Sat, 26 Aug 2006 18:15:24 +0000
 
 libxext (1:1.0.1-1) experimental; urgency=low
 
