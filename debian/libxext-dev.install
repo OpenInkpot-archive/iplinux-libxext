@@ -1,4 +1,3 @@
-usr/include/X11/*
 usr/share/man/man3/*
 usr/lib/libXext.a
 usr/lib/libXext.so

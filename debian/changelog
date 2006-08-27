@@ -1,3 +1,36 @@
+libxext (1:1.0.1-2) unstable; urgency=low
+
+  [ Andres Salomon ]
+  * Test for obj-$(DEB_BUILD_GNU_TYPE) before creating it during build;
+    idempotency fix.
+
+  [ Drew Parsons ]
+  * dbg package has priority extra.
+
+  [ David Nusinow ]
+  * Make a new manpage section patch to dynamically generate the manpage
+    sections using the libmandir variable that other manpages in the package
+    use
+  * Autoreconf for manpage sections
+
+ -- David Nusinow <dnusinow@debian.org>  Sat, 26 Aug 2006 18:16:06 +0000
+
+libxext (1:1.0.1-1) experimental; urgency=low
+
+  * New upstream release
+  * Run dh_install with --list-missing
+  * Bump debhelper compat to 5
+  * Update manpage location patch to be a lot simpler
+  * Don't try to install headers, as they aren't included
+  * Remove extra dependency on x11-common in libxext-dev
+  * Version libxext-dev's pre-dep on x11-common to be >= 1:7.0.0 to match the
+    rest of Debian and shut up lintian
+  * Re-wrap description of libxext-dev so that it's not too long on any one
+    line
+  * Update standards version to 3.7.2.0
+
+ -- David Nusinow <dnusinow@debian.org>  Mon,  3 Jul 2006 15:41:05 -0400
+
 libxext (1:1.0.0-4) unstable; urgency=low
 
   * Reorder makeshlib command in rules file so that ldconfig is run
