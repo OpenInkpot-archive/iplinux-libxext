@@ -18,7 +18,7 @@ Description: X11 miscellaneous extension library
   - DPMS, the VESA Display Power Management System extension;
   - Extended-Visual-Information (EVI), an extension for gathering extra
     information about the X server's visuals;
-  - LBX, the Low Bandwith X extension;
+  - LBX, the Low Bandwidth X extension;
   - MIT-SHM, the MIT X client/server shared memory extension;
   - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
   - Multi-Buffering, the multi-buffering and stereo display extension;
@@ -55,7 +55,7 @@ Description: X11 miscellaneous extensions library (debug package)
   - DPMS, the VESA Display Power Management System extension;
   - Extended-Visual-Information (EVI), an extension for gathering extra
     information about the X server's visuals;
-  - LBX, the Low Bandwith X extension;
+  - LBX, the Low Bandwidth X extension;
   - MIT-SHM, the MIT X client/server shared memory extension;
   - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
   - Multi-Buffering, the multi-buffering and stereo display extension;
@@ -95,7 +95,7 @@ Description: X11 miscellaneous extensions library (development headers)
   - DPMS, the VESA Display Power Management System extension;
   - Extended-Visual-Information (EVI), an extension for gathering extra
     information about the X server's visuals;
-  - LBX, the Low Bandwith X extension;
+  - LBX, the Low Bandwidth X extension;
   - MIT-SHM, the MIT X client/server shared memory extension;
   - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
   - Multi-Buffering, the multi-buffering and stereo display extension;
