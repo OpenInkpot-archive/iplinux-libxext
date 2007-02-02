@@ -5,6 +5,7 @@ Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian.org>, Fabio M. Di Nitto <fabbione@fabbione.net>
 Build-Depends: debhelper (>= 5.0.0), libx11-dev (>= 1:0.99.2-1), libxau-dev (>= 1:0.1.2-1), x11proto-core-dev (>= 6.8.99.15+cvs.20050722-1), x11proto-xext-dev, pkg-config, quilt
 Standards-Version: 3.7.2
+XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxext
 
 Package: libxext6
 Architecture: any
@@ -38,9 +39,6 @@ Description: X11 miscellaneous extension library
  More information about X.Org can be found at:
  <URL:http://xorg.freedesktop.org>
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
- .
- This module can be found as the module 'lib/Xext' at
- :pserver:anoncvs@cvs.freedesktop.org:/cvs/xorg
 
 Package: libxext6-dbg
 Architecture: any
@@ -78,9 +76,6 @@ Description: X11 miscellaneous extensions library (debug package)
  More information about X.Org can be found at:
  <URL:http://xorg.freedesktop.org>
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
- .
- This module can be found as the module 'lib/Xext' at
- :pserver:anoncvs@cvs.freedesktop.org:/cvs/xorg
 
 Package: libxext-dev
 Architecture: any
@@ -118,6 +113,3 @@ Description: X11 miscellaneous extensions library (development headers)
  More information about X.Org can be found at:
  <URL:http://xorg.freedesktop.org>
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
- .
- This module can be found as the module 'lib/Xext' at
- :pserver:anoncvs@cvs.freedesktop.org:/cvs/xorg

@@ -3,8 +3,9 @@ libxext (1:1.0.3-1) UNRELEASED; urgency=low
   * New upstream release.
   * Fix typo in package description, thanks to Rakesh 'arky' Ambati
     (closes: #398487).
+  * Drop obsolete CVS info from the descriptions, and add XS-Vcs-Git.
 
- -- Julien Cristau <julien.cristau@ens-lyon.org>  Fri,  2 Feb 2007 16:35:58 +0100
+ -- Julien Cristau <julien.cristau@ens-lyon.org>  Fri,  2 Feb 2007 16:38:24 +0100
 
 libxext (1:1.0.1-2) unstable; urgency=low
 
