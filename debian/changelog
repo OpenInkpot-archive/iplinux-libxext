@@ -2,12 +2,13 @@ libxext (1:1.0.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
     + includes XShm(3) manpage (closes: #128929).
+    + drop manpage sections patch, applied upstream.
   * Fix typo in package description, thanks to Rakesh 'arky' Ambati
     (closes: #398487).
   * Drop obsolete CVS info from the descriptions, and add XS-Vcs-Git.
   * Install the upstream ChangeLog
 
- -- Julien Cristau <julien.cristau@ens-lyon.org>  Fri,  2 Feb 2007 16:46:44 +0100
+ -- Julien Cristau <julien.cristau@ens-lyon.org>  Fri,  2 Feb 2007 16:49:29 +0100
 
 libxext (1:1.0.1-2) unstable; urgency=low
 
