@@ -1,4 +1,4 @@
-libxext (1:1.0.3-1) UNRELEASED; urgency=low
+libxext (1:1.0.3-1) experimental; urgency=low
 
   * New upstream release.
     + includes XShm(3) manpage (closes: #128929).
@@ -9,7 +9,7 @@ libxext (1:1.0.3-1) UNRELEASED; urgency=low
   * Install the upstream ChangeLog
   * Use dh_installman to replace ".so" links with symlinks.
 
- -- Julien Cristau <julien.cristau@ens-lyon.org>  Fri,  2 Feb 2007 16:52:31 +0100
+ -- Julien Cristau <jcristau@debian.org>  Fri,  9 Feb 2007 12:14:36 +0100
 
 libxext (1:1.0.1-2) unstable; urgency=low
 
