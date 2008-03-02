@@ -2,7 +2,7 @@ Source: libxext
 Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian.org>, Fabio M. Di Nitto <fabbione@fabbione.net>
+Uploaders: David Nusinow <dnusinow@debian.org>, Brice Goglin <bgoglin@debian.org>
 Build-Depends: debhelper (>= 5.0.0), libx11-dev (>= 1:0.99.2-1), libxau-dev (>= 1:0.1.2-1), x11proto-core-dev (>= 6.8.99.15+cvs.20050722-1), x11proto-xext-dev, pkg-config, quilt
 Standards-Version: 3.7.2
 XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxext

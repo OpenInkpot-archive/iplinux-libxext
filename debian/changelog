@@ -1,8 +1,14 @@
-libxext (2:1.0.3-3) UNRELEASED; urgency=low
+libxext (2:1.0.4-1) unstable; urgency=low
 
+  [ Timo Aaltonen ]
   * Bump the epoch so that this can be synced to Ubuntu in the future.
 
- -- Timo Aaltonen <tjaalton@cc.hut.fi>  Tue, 24 Apr 2007 11:40:44 +0300
+  [ Brice Goglin ]
+  * New upstream release.
+  * Update debian/copyright to the new upstream COPYING.
+  * Add myself to Uploaders, remove Fabio and Branden with their permission.
+
+ -- Brice Goglin <bgoglin@debian.org>  Sun, 02 Mar 2008 16:25:56 +0100
 
 libxext (1:1.0.3-2) unstable; urgency=low
 
