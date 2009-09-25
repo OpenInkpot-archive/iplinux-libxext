@@ -68,9 +68,9 @@ typedef struct _XGEData {
 
 
 /* forward declarations */
-extern XExtDisplayInfo* _xgeFindDisplay(Display*);
+static XExtDisplayInfo* _xgeFindDisplay(Display*);
 static Bool _xgeWireToEvent(Display*, XEvent*, xEvent*);
-Status _xgeEventToWire(Display*, XEvent*, xEvent*);
+static Status _xgeEventToWire(Display*, XEvent*, xEvent*);
 static int _xgeDpyClose(Display*, XExtCodes*);
 static XGEVersionRec* _xgeGetExtensionVersion(Display*,
                                               _Xconst char*,
@@ -95,7 +95,7 @@ static XExtensionHooks xge_extension_hooks = {
 };
 
 
-XExtDisplayInfo *_xgeFindDisplay(Display *dpy)
+static XExtDisplayInfo *_xgeFindDisplay(Display *dpy)
 {
     XExtDisplayInfo *dpyinfo;
     if (!xge_info)
@@ -127,7 +127,7 @@ XExtDisplayInfo *_xgeFindDisplay(Display *dpy)
 /*
  * Check extension is set up and internal data fields are filled.
  */
-Bool
+static Bool
 _xgeCheckExtInit(Display* dpy, XExtDisplayInfo* info)
 {
     LockDisplay(dpy);
@@ -161,8 +161,7 @@ cleanup:
 static Bool
 _xgeCheckExtension(Display* dpy, XExtDisplayInfo* info)
 {
-    XextCheckExtension(dpy, info, xge_extension_name, False);
-    return True;
+    return XextHasExtension(info);
 }
 
 
@@ -264,7 +263,7 @@ _xgeWireToEvent(Display* dpy, XEvent* re, xEvent *event)
 /*
  * xlib event to protocol conversion routine.
  */
-Status
+static Status
 _xgeEventToWire(Display* dpy, XEvent* re, xEvent* event)
 {
     int extension;
