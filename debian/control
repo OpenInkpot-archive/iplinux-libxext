@@ -2,12 +2,10 @@ Source: libxext
 Section: gui
 Priority: optional
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
-Build-Depends: debhelper (>= 4.0.0), libx11-dev (>= 1:0.99.2), libxau-dev (>= 1:0.1.2), x11proto-core-dev (>= 6.8.99.15+cvs.20050722), x11proto-xext-dev, pkg-config, quilt, automake, libtool
-XCS-Cross-Host-Build-Depends: debhelper (>= 4.0.0), pkg-config, quilt, automake, libtool
-XCS-Cross-Build-Depends: libx11-dev (>= 1:0.99.2), libxau-dev (>= 1:0.1.2), x11proto-core-dev (>= 6.8.99.15+cvs.20050722), x11proto-xext-dev
-Standards-Version: 3.7.3
-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxext
-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxext.git
+Build-Depends: debhelper (>= 7), libx11-dev (>= 2:1.1.99.1), libxau-dev (>= 1:0.1.2), x11proto-core-dev (>= 7.0.13), x11proto-xext-dev (>= 7.0.99.2), pkg-config, quilt, automake, libtool, xorg-util-macros (>= 1.2)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7), pkg-config, quilt, automake, libtool, xorg-util-macros (>= 1.2)
+XCS-Cross-Build-Depends: libx11-dev (>= 2:1.1.99.1), libxau-dev (>= 1:0.1.2), x11proto-core-dev (>= 7.0.13), x11proto-xext-dev (>= 7.0.99.2)
+Standards-Version: 3.8.3
 
 Package: libxext6
 Section: gui
